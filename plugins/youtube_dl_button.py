@@ -195,7 +195,7 @@ async def youtube_dl_call_back(bot, update):
         asyncio.create_task(clendir(file_location))
         asyncio.create_task(clendir(thumbnail))
         await bot.edit_message_text(
-        text="<b>ᴜᴘʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ✔️\n\nᴊᴏɪɴ @VJ_BOTZ</b>",
+        text="<b>ᴜᴘʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ✔️\n\nᴊᴏɪɴ @synaxnetwork 🇮🇳❤️</b>",
         chat_id=update.message.chat.id,
         message_id=update.message.id,
         disable_web_page_preview=True)
