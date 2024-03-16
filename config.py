@@ -17,7 +17,7 @@ def is_enabled(value, default):
 
 class Config(object):
     # Bot Information 
-    TECH_VJ_BOT_TOKEN = os.environ.get("TECH_VJ_BOT_TOKEN", "7173479389:AAFUnjPWg__-kR0hGDTVfkuckJgrQdK7qSk")
+    TECH_VJ_BOT_TOKEN = os.environ.get("TECH_VJ_BOT_TOKEN", "7173479389:AAH7ZJGNPGOljFV7k0rI0PPX2ogS6ARFZEA")
     TECH_VJ_BOT_USERNAME = os.environ.get("TECH_VJ_BOT_USERNAME", "Urluploaderxv1Bot") # Bot username without @.
     
     # The Telegram API things
@@ -48,17 +48,17 @@ class Config(object):
     
     # your telegram account id
     TECH_VJ_OWNER_ID = int(os.environ.get("TECH_VJ_OWNER_ID", "6231550362")) 
-    TECH_VJ_SESSION_NAME = "VJ-URL-UPLOADER-BOT"
+    TECH_VJ_SESSION_NAME = "EXONTESTMONGO"
     
     # database uri (mongodb)
     TECH_VJ_DATABASE_URL = os.environ.get("TECH_VJ_DATABASE_URL", "mongodb+srv://EXONTESTMONGO:EXONTESTMONGO@cluster0.bviw7ic.mongodb.net/?retryWrites=true&w=majority")
     TECH_VJ_MAX_RESULTS = "50"
 
     # channel information
-    TECH_VJ_LOG_CHANNEL = int(os.environ.get("TECH_VJ_LOG_CHANNEL", "-1002132398644")) # your log channel id and make bot admin in log channel with full right 
+    TECH_VJ_LOG_CHANNEL = int(os.environ.get("TECH_VJ_LOG_CHANNEL", "-1002053069822")) # your log channel id and make bot admin in log channel with full right 
     
     # if you want force subscribe then give your channel id below else leave blank
-    tech_vj_update_channel = environ.get('TECH_VJ_UPDATES_CHANNEL', '-1001969679920') # your update channel id and make bot admin in update channel with full right
+    tech_vj_update_channel = environ.get('TECH_VJ_UPDATES_CHANNEL', '-1002053069822') # your update channel id and make bot admin in update channel with full right
     TECH_VJ_UPDATES_CHANNEL = int(tech_vj_update_channel) if tech_vj_update_channel and id_pattern.search(tech_vj_update_channel) else None  
     
     # Url Shortner Information 
