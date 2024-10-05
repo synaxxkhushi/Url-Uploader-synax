@@ -79,7 +79,7 @@ Copyright ©️ [Tech VJ](https://telegram.me/synaxnetwork)
 </details>
 
 
-### Copyright ©️ [Tech VJ](https://telegram.me/sanatanisynax)
+### Copyright ©️ [SYNAX](https://telegram.me/sanatanisynax)
 
 <b>Selling This Repo Or Code Of This Repo For Money Is Strictly Prohibited 🚫</b>
 
